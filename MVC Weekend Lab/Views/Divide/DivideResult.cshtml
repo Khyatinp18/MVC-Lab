@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "DivideResult";
+}
+
+@model DivideNum
+
+<h1>Divison Result</h1>
+
+@{ 
+    <h4> @Model.Number1 / @Model.Number2</h4> 
+    <h5> Quotient: @Model.GetQuotient()</h5> 
+    <h5> Remainder: @Model.GetRemainder()</h5> 
+
+    }
+
